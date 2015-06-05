@@ -84,23 +84,23 @@ public class ExceptionAndLogInterceptor implements Interceptor {
    * @param request
    * @return 
    */
-  private Menu matchDefineRecordLogMenu(HttpServletRequest request) {
-    Map<String, Menu> menus = Menu.getAllUrlMenus();
-    if(menus != null){
-      String uri = request.getRequestURI();
-      Set<String> urls = menus.keySet();
-      for (String url : urls) {
-        if(url == null)continue;
-        //url匹配 && 有参数 && 已配置记录日志
-        if(url.contains(uri) 
-            && request.getParameterNames().hasMoreElements()
-            && menus.get(url).isRecordLog()){
-          return menus.get(url);
-        }
-      }
-    }
-    return null;
-  }
+//  private Menu matchDefineRecordLogMenu(HttpServletRequest request) {
+//    Map<String, Menu> menus = Menu.getAllUrlMenus();
+//    if(menus != null){
+//      String uri = request.getRequestURI();
+//      Set<String> urls = menus.keySet();
+//      for (String url : urls) {
+//        if(url == null)continue;
+//        //url匹配 && 有参数 && 已配置记录日志
+//        if(url.contains(uri) 
+//            && request.getParameterNames().hasMoreElements()
+//            && menus.get(url).isRecordLog()){
+//          return menus.get(url);
+//        }
+//      }
+//    }
+//    return null;
+//  }
 
   /**
    * @methodName: doLog

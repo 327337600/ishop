@@ -1,9 +1,7 @@
 package com.ishop.common;
 
-import com.ishop.blog.Blog;
 import com.ishop.blog.BlogController;
 import com.ishop.index.IndexController;
-import com.ishop.intercepor.ExceptionInterceptor;
 import com.ishop.model.Category;
 import com.ishop.model.Product;
 import com.jfinal.config.Constants;
