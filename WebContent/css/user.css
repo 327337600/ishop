@@ -1,0 +1,316 @@
+@charset "UTF-8";
+/* CSS Document */
+body{ background: #F2F2F2;}
+/*login*/
+.User_land {
+	width: 1190px;
+	background: #ffffff;
+	margin:0 auto;
+	margin-top:20px;
+}
+.User_land .sign_in, .User_land .register {
+	display: inline-block;
+	width: 96%;
+	padding: 2%;
+	margin-top:10px;
+}
+.User_land .entry {
+	float: left;
+	width: 100%;
+}
+.User_land .entry_left {
+	float: left;
+	width: 64%;
+	border-right: 1px solid #e1e1e1;
+}
+.User_land .entry_left>h2 {
+	padding-bottom: 20px;
+	width: 100%;
+	font: normal 26px "Microsoft Yahei";
+	color: #535353;
+}
+.User_land .entry_left .form_group>label {
+	float: left;
+	width: 156px;
+	padding-right: 20px;
+	line-height: 35px;
+	text-align: right;
+	 color: #999;
+    font-size: 14px;
+}
+.User_land .entry_left .form_group .code {
+	width: 15%;
+}
+.User_land .entry_left .form_control {
+	width: 40%;
+	height: 35px;
+	background-color: #f7f7f7;
+	border: 1px solid #cccccc;
+}
+.User_land .entry_left .form_group>span {
+	font: normal 12px "宋体";
+	line-height: 35px;
+	padding-left: 10px;
+	color: #9c9c9c;
+}
+.User_land .entry_left .btn_grey {
+background: none repeat scroll 0 0 #f4f4f4;
+    border: 1px solid #dddddd;
+    color: #333;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 10px;
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 106px;
+}
+.User_land .entry_left .Password_strength {
+	float: left;
+	padding: 10px 0 20px 176px;
+	width: 74%;
+}
+.User_land .entry_left .Password_strength>ol>li {
+	float: left;
+}
+.User_land .entry_left .Password_strength>ol>li>span {
+	display: inline-block;
+	float: left;
+	width: 60px;
+	height: 10px;
+	margin: 4px 2px 4px 2px;
+	background-color: #e0e0e0;
+}
+.User_land .entry_left .Password_strength>ol>li>span.green {
+	background-color: #5ba601;
+}
+.User_land .entry_left .checkbox {
+	float: left;
+	width: 74%;
+	padding: 2% 0 2% 176px;
+	font: normal 12px "宋体";
+	line-height: 27px;
+	color: #000;
+}
+.User_land .entry_left .forgetPassword {
+	color: #f03b43;
+	text-decoration: underline;
+}
+.User_land .entry_left .button {
+	float: left;
+	margin: 2% 0 8% 0;
+	width: 74%;
+	padding-left: 176px;
+}
+.User_land .entry_left .button .btn_primary {
+	width: 106px;
+	height: 38px;
+	font: normal 18px "Microsoft Yahei";
+	line-height: 38px;
+}
+.User_land .entry_left .button .forgetPassword {
+	line-height: 38px;
+	margin-left: 20px;
+}
+.User_land .sign_in .entry_left .Partnership_account {
+	float: left;
+	margin-bottom: 2%;
+	width: 74%;
+	padding-left: 176px;
+}
+.User_land .entry_left .Partnership_account>h2 {
+	padding-bottom: 20px;
+	width: 100%;
+	font: normal 14px "Microsoft Yahei";
+	color: #535353;
+}
+.User_land .entry_left .Partnership_account .using {
+	float: left;
+	width: 100%;
+}
+.User_land .entry_left .Partnership_account .using>a {
+	float: left;
+	width: 32px;
+	height: 32px;
+	font: normal 20px "Microsoft Yahei";
+	line-height: 32px;
+	text-align: center;
+	color: #fff;
+	margin-right: 10px;
+}
+.User_land .entry_left .Partnership_account .using>a.qq {
+	background-color: #5abddd;
+}
+.User_land .entry_left .Partnership_account .using>a.weibo {
+	background-color: #d45e5e;
+}
+.User_land .entry_left .Partnership_account .using>a.douban {
+	background-color: #4cb358;
+}
+.User_land .entry_left .Partnership_account .using>a.renren {
+	background-color: #5192e2;
+}
+.User_land .entry_left .Partnership_account .using>a.taobao {
+	background-color: #fe993d;
+}
+.User_land .entry_right {
+	float: right;
+	width: 33%;
+	padding-left: 2%;
+}
+.User_land .entry_right>h2 {
+	padding-bottom: 20px;
+	width: 100%;
+	font: normal 26px "Microsoft Yahei";
+	line-height: 35px;
+	color: #535353;
+}
+.User_land .entry_right>h2>p {
+	font: normal 18px "Microsoft Yahei";
+}
+.User_land .entry_right .btn_register {
+	width: 106px;
+	height: 38px;
+	font: normal 18px "Microsoft Yahei";
+	line-height: 38px;
+}
+/*success*/
+.success {
+	display: inline-block;
+	width: 96%;
+	padding: 2%;
+}
+.success .success_txt {
+	padding: 5% 0;
+}
+.success .success_txt>i {
+	margin: 10px 0;
+	font-size: 70px;
+	color: #dc4f59;
+}
+.success .success_txt .red {
+	font: normal 18px "Microsoft Yahei";
+	color: #dc4f59;
+}
+.success .success_txt>p {
+	padding: 8px 0;
+	font: normal 12px "Microsoft Yahei";
+	color: #7b7b7b;
+}
+.success .success_button {
+	margin: 20px auto;
+	text-align: center;
+}
+.success .success_button>a {
+	margin: 0 10px;
+	width: 160px;
+	height: 40px;
+	font: normal 18px "Microsoft Yahei";
+	line-height: 40px;
+	text-align: center;
+}
+
+.form_group .captcha {
+	float: left;
+	width: 60px;
+	height: 27px;
+	margin-top: 5px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.form_group {
+    float: left;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.User_land .entry_left .button .btn_primary {
+    font: 18px/38px "Microsoft Yahei";
+    height: 38px;
+    width: 106px;
+}
+.btn_primary {
+    background-color: #e40011;
+}
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+
+.User_land .entry_left .btn_grey {
+    border: 1px solid #cccccc;
+    color: #535353;
+    font: 14px/37px "Microsoft Yahei";
+    height: 37px;
+    margin: 0 10px;
+    width: 90px;
+}
+.btn_grey {
+    background-color: #edeced;
+    color: #000616;
+}
+
+.form_control {
+    background-color: #fff;
+    border: 1px solid #c3c3c3;
+    color: #555;
+    float: left;
+    font-size: 14px;
+    height: 25px;
+}
+
+
+.btn_register {
+    background-color: #7cbe56;
+    color: #fff;
+}
+.btn_register:hover{ color:#fff;}
+
+.User_land .entry_left1 {
+	float: left;
+	width: 50%;
+	padding-left: 2%;
+}
+.User_land .entry_right1 {
+	float: right;
+	width: 40%;
+	padding-left: 2%;
+}
+.form_contro2 {
+    background-color: #fff;
+    border: 1px solid #c3c3c3;
+    color: #555;
+    font-size: 14px;
+    height: 25px;
+	width:50%;
+	background-color: #f7f7f7;
+    border: 1px solid #cccccc;
+    height: 35px;
+   
+}
+
+.login-group label{display:block;  color: #999;
+    font-size: 14px; line-height:25px;}
+.login-group{ margin-top:15px;}
+.login-group span input{vertical-align:middle;}
+.btn_primary {
+	width: 106px;
+	height: 38px;
+	font: normal 18px "Microsoft Yahei";
+	line-height: 38px;
+}
+.btn_primary:hover{ color:#fff;}
+.text-d{text-decoration:underline;}
+.checkbox  .check{ vertical-align:middle;}

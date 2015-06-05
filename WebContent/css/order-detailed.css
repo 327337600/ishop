@@ -1,0 +1,610 @@
+#commodity_order .buorder aside a {
+    color: #428bca;
+}
+#commodity_order {
+    
+    padding-bottom: 30px;
+    text-align: left;
+    width:100%;
+}
+#commodity_order .bread {
+    color: #999;
+    line-height: 40px;
+}
+#commodity_order .nvtg {
+    border-bottom: 2px solid #f0ad4e;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    text-align: center;
+}
+#commodity_order .nvtg ul {
+    float: left;
+    margin-right: -1px;
+}
+#commodity_order .nvtg ul li {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #fff1de;
+    border-color: #e9dbc8;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+    float: left;
+    width: 133px;
+}
+#commodity_order .nvtg ul li.li1 {
+    border-radius: 2px 0 0;
+    border-width: 1px 1px 0;
+}
+#commodity_order .nvtg ul li.li2 {
+    border-radius: 0 2px 0 0;
+}
+#commodity_order .nvtg ul li.cur {
+    background: none repeat scroll 0 0 #f0ad4e;
+    border-color: #f0ad4e;
+}
+#commodity_order .nvtg ul li.cur a {
+    color: #fff;
+}
+#commodity_order .nvtg ul li a:hover {
+    text-decoration: none;
+}
+#commodity_order .trading_title {
+    background: none repeat scroll 0 0 #ebebeb;
+    border-bottom: 1px solid #e1e1e1;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    width: 100%;
+}
+#commodity_order .trading_title span {
+    color: gray;
+    float: left;
+    text-align: left;
+    width: 102px;
+}
+#commodity_order .trading_title .s1 {
+    padding-left: 20px;
+    text-align: left;
+    width: 290px;
+}
+#commodity_order .trading_title .s2 {
+    text-align: left;
+    width: 100px;
+}
+#commodity_order .trading_title .s3 {
+    width: 80px;
+}
+#commodity_order .trading_title .s4, #commodity_order .item .s4 {
+    text-align: center;
+    width: 78px;
+}
+#commodity_order .trading_title .s6, #commodity_order .item .s6 {
+    text-align: center;
+}
+#commodity_order .trading_title .s7, #commodity_order .trading_title .s8 {
+    padding-left: 1px;
+}
+#commodity_order .trading_title .s7, #commodity_order .item .s7 {
+    text-align: center;
+}
+#commodity_order .trading_title .s8, #commodity_order .item .s8 {
+    text-align: center;
+}
+#commodity_order .item {
+    border-bottom: 1px solid #e1e1e1;
+    color: #333;
+    float: left;
+    line-height: 20px;
+    width: 100%;
+}
+#commodity_order .item table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#commodity_order .item table tr td {
+    border-right: 1px solid #e1e1e1;
+    padding: 0;
+}
+#commodity_order .item table tr td.last {
+    border-right: 0 none;
+}
+#commodity_order .item .first {
+    border-top: 1px solid #e1e1e1;
+    margin-top: -2px;
+    padding: 15px 0;
+    width: 670px;
+}
+#commodity_order .item .butie {
+    border-top: 1px solid #e1e1e1;
+    line-height: 24px;
+    margin-top: -2px;
+    padding: 15px 0;
+    width: 670px;
+}
+#commodity_order .item .butie .butiel {
+    padding-left: 10px;
+    width: 298px;
+}
+#commodity_order .item .butie .butiel .icon-bt {
+    background: url("d/v1icon23.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 20px;
+    margin-right: 4px;
+    margin-top: 2px;
+    width: 30px;
+}
+#commodity_order .item .butie .butiel a {
+    color: #428bca;
+}
+#commodity_order .item .butie .s3 {
+    padding-left: 100px;
+}
+#commodity_order .item figure {
+    float: left;
+    margin: 0;
+    padding-left: 70px;
+    width: 238px;
+}
+#commodity_order .item figure img {
+    float: left;
+    margin-left: -60px;
+    margin-top: 4px;
+}
+#commodity_order .item figure h3 {
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+}
+#commodity_order .item figure .you {
+    background: url("d/syou24.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height: 20px;
+    width: 26px;
+}
+#commodity_order .item a {
+    color: #428bca;
+}
+#commodity_order .item div {
+    float: left;
+    text-align: left;
+    width: 102px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+#commodity_order .item .s2 {
+    width: 100px;
+}
+#commodity_order .item .s3 {
+    width: 80px;
+}
+#commodity_order .item .s3 del {
+    color: gray;
+    display: block;
+}
+#commodity_order .item .s5 {
+    width: 102px;
+}
+#commodity_order .behu {
+    clear: left;
+    padding: 10px 20px;
+}
+#commodity_order .behu em {
+    color: #d9534f;
+}
+#commodity_order .otinfo {
+    background: none repeat scroll 0 0 #ebebeb;
+    border-bottom: 1px solid #e1e1e1;
+    clear: left;
+    height: 28px;
+    line-height: 28px;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+#commodity_order .otinfo2 {
+    margin-top: 0;
+}
+#commodity_order .shoinf {
+    border-bottom: 1px solid #e1e1e1;
+    color: #333;
+    line-height: 24px;
+    padding: 10px 20px;
+}
+#commodity_order .shoinf span {
+    padding-right: 30px;
+}
+#commodity_order .shoinf a {
+    color: #428bca;
+}
+#commodity_order .otlist {
+    margin-bottom: 20px;
+}
+#commodity_order .otlist li {
+    color: #333;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    padding-left: 20px;
+    width: 220px;
+}
+#commodity_order .otlist li em {
+    color: #d9534f;
+}
+#commodity_order .buorder {
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#commodity_order .buorder .bodf {
+    color: #333;
+    padding: 10px;
+}
+#commodity_order .buorder .bodf b {
+    color: #5cb85c;
+}
+#commodity_order .buorder .bols {
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    width: 800px;
+}
+#commodity_order .buorder .bols.w526{width:600px; overflow:hidden;}
+#commodity_order .buorder .bols.w526 p {
+    background:url(../images/background/bg4.png) no-repeat -35px -3px !important ;}
+#commodity_order .buorder .bols p {
+    background:url(../images/background/bg3.png) no-repeat -35px -3px ;
+    height: 5px;
+    left: 20px;
+    overflow: hidden;
+    padding: 15px 20px 20px;
+    position: absolute;
+    top: 20px;
+    width: 730px;
+}
+#commodity_order .buorder .bols p em {
+    background: none repeat scroll 0 0 #5cb85c;
+    display: inline;
+    float: left;
+    height: 5px;
+    margin-top: 2px;
+    overflow: hidden;
+}
+#commodity_order .buorder .bols span {
+    display: block;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 80px;
+}
+#commodity_order .buorder .bols span em {
+    display: block;
+    font: 700 22px/26px Arial;
+    height: 26px;
+    left: 27px;
+    position: absolute;
+    top: 26px;
+    width: 26px;
+}
+#commodity_order .buorder .bols span em.on {
+     background:url(../images/background/bg3.png)  no-repeat  -809px 0 ;
+    overflow: hidden;
+    text-indent: -50px;
+    width: 25px;
+}
+#commodity_order .buorder .bols .bo2 {
+    left: 243px;
+}
+#commodity_order .buorder .bols .bo3 {
+    left: 487px;
+}
+#commodity_order .buorder .bols .bo4 {
+    left: 730px;
+}
+#commodity_order .user {
+    border: 0 none;
+    margin-top: 20px;
+}
+#commodity_order .user .bols time, #commodity_order .user .bols i {
+    left: -30px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+	font-style:normal;
+    width: 140px;
+}
+#commodity_order .user .bols time {
+    color: #999;
+    top: 66px;
+}
+#commodity_order .orderinfo {
+    border: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+}
+#commodity_order .productsbox {
+    border: #e1e1e1 1px solid;
+    margin-bottom: 20px;
+}
+#commodity_order .productsbox .ov {
+    overflow: hidden;
+}
+#commodity_order .orderinfo hgroup, #commodity_order .productsbox hgroup {
+    background: none repeat scroll 0 0 #ebebeb;
+    color: gray;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+#commodity_order .orderinfo hgroup span {
+    margin-right: 15px;
+}
+#commodity_order .orderinfo .trading_title, #commodity_order .productsbox .trading_title {
+    background: none repeat scroll 0 0 #f5f5f5;
+    border-bottom: 0 none;
+    border-top: 1px solid #e1e1e1;
+}
+#commodity_order .orderinfo .item {
+    border: 0 none;
+}
+#commodity_order .ms_orderinfo {
+    border: #e1e1e1  solid 1px;
+    margin-bottom: 20px;
+}
+#commodity_order .ms_orderinfo hgroup {
+    background: none repeat scroll 0 0 #ebebeb;
+    color: gray;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+#commodity_order .ms_orderinfo h3 {
+    font-weight: 700;
+}
+#commodity_order .ms_orderinfo .blockB, #commodity_order .ms_orderinfo .blockC {
+    border-bottom: 1px solid #e1e1e1;
+    color: #333;
+    line-height: 24px;
+    padding: 10px 20px;
+}
+#commodity_order .ms_putie {
+    border: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+}
+#commodity_order .ms_putie hgroup {
+    background: none repeat scroll 0 0 #ebebeb;
+    color: gray;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+#commodity_order .ms_putie .txt {
+    color: #333;
+    line-height: 24px;
+    padding: 10px 20px;
+}
+.text_red {
+    color: #e02f2f !important;
+}
+#commodity_order .productsbox hgroup span {
+    float: left;
+    margin-right: 15px;
+}
+#commodity_order .productsbox .qq {
+    float: left;
+    line-height: 28px;
+    vertical-align: top;
+}
+#commodity_order .productsbox .qq a {
+    background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #e1e1e1;
+    border-radius: 1px;
+    color: gray;
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100px;
+}
+#commodity_order .productsbox .qq a:hover {
+    text-decoration: none;
+}
+#commodity_order .productsbox .qq a img {
+    float: left;
+    margin: 2px 2px 0;
+}
+#commodity_order .productsbox .qq a i {
+    float: left;
+    overflow: hidden;
+    text-align: left;
+    width: 72px;
+}
+#commodity_order .subtotal {
+    text-align: right;
+}
+#commodity_order .subtotal li {
+    font-family: "微软雅黑";
+    line-height: 18px;
+    padding: 4px 0;
+}
+#commodity_order .subtotal span {
+    display: inline-block;
+    width: 84px;
+}
+#commodity_order .subtotal .dpyh strong, #commodity_order .subtotal .yhq strong, #commodity_order .subtotal .jf strong {
+    color: #00923e;
+}
+#commodity_order .subtotal .heji span {
+    color: #e02f2f;
+    line-height: 26px;
+}
+#commodity_order .subtotal .heji b {
+    font-size: 26px;
+}
+#commodity_order .subtotal .heji span {
+    width: auto;
+}
+#commodity_order .subtotal .jf.on {
+    position: relative;
+}
+#commodity_order .subtotal .jf.on .tips {
+    display: block;
+}
+#commodity_order .subtotal .jf .icon {
+    background: url("d/icon1.png") no-repeat scroll 2px 0 rgba(0, 0, 0, 0);
+    display: inline-block !important;
+    height: 16px;
+    vertical-align: middle;
+    width: 16px;
+}
+#commodity_order .subtotal .jf .tips {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #b1b1b1;
+    border-radius: 10px;
+    bottom: 30px;
+    box-shadow: 0 0 7px #d5d5d5;
+    display: none;
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    width: 200px;
+}
+#commodity_order .subtotal .jf .tips sup {
+    background: url("d/icon6.png") no-repeat scroll 0 -14px rgba(0, 0, 0, 0);
+    font: 0px/0 "";
+    height: 14px;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 38px;
+    width: 27px;
+}
+#commodity_order .subtotal .jf .tips .info {
+    text-align: left;
+    width: 100%;
+}
+#commodity_order .servicelist1 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #e1e1e1 #e1e1e1 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    margin-bottom: 20px;
+}
+#commodity_order .servicelist1 hgroup {
+    background: none repeat scroll 0 0 #ebebeb;
+    color: gray;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+#commodity_order .servicelist1 table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 978px;
+}
+#commodity_order .servicelist1 tr td {
+    border-bottom: 1px solid #e1e1e1;
+    line-height: 24px;
+    padding: 14px 0;
+}
+#commodity_order .servicelist1 time {
+    float: left;
+    width: 240px;
+}
+#commodity_order .servicelist1 .target, #commodity_order .servicelist1 .type {
+    width: 175px;
+}
+#commodity_order .servicelist1 .state_o {
+    width: 180px;
+}
+#commodity_order .servicelist1 .s_products {
+    text-align: center;
+    width: 80px;
+}
+#commodity_order .servicelist1 .reason {
+    width: 190px;
+}
+#commodity_order .servicelist1 .last {
+    text-align: center;
+    width: 100px;
+}
+#commodity_order .servicelist1 a {
+    color: #428bca;
+}
+#commodity_order .logistics {
+    color: #333;
+    line-height: 24px;
+    padding: 10px 20px;
+}
+#commodity_order .logistics p {
+    margin-bottom: 5px;
+}
+#commodity_order .logistics ul label {
+    float: left;
+    margin-left: -88px;
+    width: 88px;
+}
+#commodity_order .logistics ul, .orderinfo .logistics aside {
+    padding-left: 88px;
+}
+#commodity_order .logistics.pg0 ul {
+    padding-left: 0px;
+}
+#commodity_order .logistics ul li {
+    margin-bottom: 5px;
+}
+#commodity_order .logistics ul li.last {
+    color: #e20000;
+}
+#commodity_order .logistics aside {
+    padding-left: 88px;
+}
+#commodity_order .logistics aside .tips {
+    background: none repeat scroll 0 0 #fff1dc;
+    color: #333;
+    display: inline-block;
+    padding: 5px 10px;
+}
+#commodity_order .logistics aside p {
+    line-height: 24px;
+}
+#commodity_order .logistics aside p a {
+    color: #428bca;}
+	.dy-set-table-or {
+	border-collapse: collapse;
+	border:1px solid #e1e1e1;
+	font-family: "microsoft yahei";
+}
+.dy-set-table-or  td {
+	padding: 10px 0;
+	border-bottom: 1px solid #e1e1e1
+}
+.dy-set-table-or  th {
+	height: 32px;
+	font-size: 14px;
+	line-height: 32px;
+	background: #F3F3F3;
+	padding-left: 10px;
+}
+.dealps {
+    background: none repeat scroll 0 0 #fefdf9;
+    border: 1px solid #ebebeb;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.dealps p {
+    color: #333;
+    line-height: 40px;
+}

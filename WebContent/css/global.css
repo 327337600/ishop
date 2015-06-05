@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif, "宋体", "微软雅黑", "黑体";
+	color: #444;
+}
+h1, h2, h3, h4, h5, h6, h7 {
+	font-size: 12px;
+	font-weight: normal;
+}
+a {
+	color: #575757;
+	text-decoration: none;
+}
+a:hover {
+	color: #eee;
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+img {
+	border: none;
+}
+.w1190 {
+	width: 1190px;
+	overflow: hidden;
+	margin: 0 auto;
+	clear: left;
+}
+.f-left {
+	float: left;
+}
+.f-right {
+	float: right;
+}
+.mg-t10 {
+	margin-top: 10px;
+}
+.mg-t20 {
+	margin-top: 20px;
+}
+.mg-t30 {
+	margin-top: 30px;
+}
+.mg-t110 {
+	margin-left: 10px;
+}
+.mg-t115 {
+	margin-left: 15px;
+}
+.mg-t120 {
+	margin-left: 20px;
+}
+.mg-tr10 {
+	margin-right: 10px;
+}
+.mg-tr15 {
+	margin-right: 15px;
+}
+.mg-tr20 {
+	margin-right: 20px;
+}
+.mg-lr15 {
+	margin: 0 15px 0 15px
+}
+.c-red {
+	color: #ABADAF;
+}
+button {
+	cursor: pointer;
+}
+.f16 {
+	font-size: 16px;
+}
+.f18 {
+	font-size: 18px;
+}
+.mr5 {
+	margin-right: 5px;
+}
+.ftx-05 {
+	color: #005ea7;
+}
+.f20{color: #535353;
+    font: 26px "Microsoft Yahei";
+    padding-bottom: 20px;
+    width: 100%;}
